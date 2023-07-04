@@ -1,0 +1,80 @@
+.footer-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 8rem;
+    text-align: center;
+    height: 23px;
+    font-size: 16px;
+    font-weight: 500;
+    width: 366px;
+
+}
+
+
+.footer {
+    height: 888px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    width: 414px;
+    margin-left: 2rem;
+}
+
+.footer__logo {
+    height: 40px;
+    width: 80px;
+    text-align: left;
+    align-items: start;
+
+}
+
+.footer__caption {
+    height: 16px;
+    font-size: 11px;
+    text-align: left;
+    color: #676767;
+}
+
+.footer__baixe {
+    height: 23px;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: left;
+    color: #676767;
+}
+
+.footer__logo__app {
+    width: 89.75px;
+    height: 30px;
+}
+
+.footer__logo__google {
+    width: 101.25px;
+    height: 30px;
+    margin-left: 0.7rem;
+}
+
+.footer__pigz__titulo{
+    height: 23px;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: left;
+    color: #676767;
+}
+
+.footer__pigz__texto{
+    height: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+    color: #666666;
+}
+
+.footer__fale{
+    height: 23px;
+    font-weight: 600;
+    font-size: 16px;
+    padding-left: 2rem;
+}

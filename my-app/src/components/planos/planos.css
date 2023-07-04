@@ -1,0 +1,52 @@
+.plano {
+    height: 472px;
+    background-color: #FAFAFA;
+    border-radius: 64px;
+}
+
+.plano__titulo {
+    height: 33px;
+    text-align: left;
+    font-size: 24px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.plano__sub-titulo {
+    height: 23px;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 500;
+    color: #666666;
+}
+
+.plano__itens{
+    list-style-type: none;
+    text-align: left;
+}
+
+.plano__itens__item {
+    list-style-type: none;
+    list-style: none;
+    text-align: left;
+}
+
+.planos__preço{
+    height: 28px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: #333333;
+}
+
+.plano__button{
+    display: block;
+    height: 56px;
+    width: 302px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    background-image: linear-gradient(258deg, #FA641E, #FF881F);
+    border-radius: 32px;
+}

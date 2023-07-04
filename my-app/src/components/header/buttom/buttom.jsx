@@ -4,7 +4,7 @@ import './button.css'
 export default function ButtomJaSou() {
   return (
     <div>
-        <a className='button'>Já sou parceiro</a>
+        <a className='header__button'>Já sou parceiro</a>
     </div>
   )
 }

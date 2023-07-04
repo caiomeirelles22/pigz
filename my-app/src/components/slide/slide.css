@@ -1,0 +1,13 @@
+.barrinhas{
+ display: flex;   
+ width: 414px;
+ justify-content: space-between;
+ margin: 2rem;
+}
+
+.barrinha{
+    height: 4px;
+    width: 88px;
+    background-color: #e80404;
+    margin: 2px;
+}
