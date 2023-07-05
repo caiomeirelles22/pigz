@@ -13,7 +13,7 @@ const ComponenteSlide = () => {
   };
 
   return (
-    <div>
+    <div className='teste'>
       <div className="barrinhas">
         <div className='barrinha' onClick={() => trocarImagem(<SlideMark/>)}></div>
         <div className='barrinha' onClick={() => trocarImagem(<SlideGestao/>)}></div>

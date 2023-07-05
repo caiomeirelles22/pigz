@@ -1,21 +1,23 @@
 .textual {
     background-image: url('/public/hamburger-with-floating-ingredients-on-dark-background.png');
-    background-position: right;
+    background-position: 240px;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    height: 271px;
+    height: 300px;
     padding-top: 1rem;
     text-align: left;
     width: 382px;
+    padding-left: 1rem;
 }
 
 .textual__titulo {
     font-size: 40px;
     color: white;
     height: 200px;
-    width: 382px;
+    width: 300px;
     font-weight: bold;
+    text-align: left;
 }
 
 .textual__sub-titulo {

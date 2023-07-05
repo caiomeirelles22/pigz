@@ -25,16 +25,25 @@ export default function Footer() {
                 </div>
 
                 <span className='footer__fale'><img src='icone-fale-conosco.png'></img>Fale conosco </span>
-                <p>falecom@pigz.com.br</p>
-                <p>95 3224-2603</p>
-                <p>Pigz nas redes</p>
+                <p className='footer__pigz__titulo' >falecom@pigz.com.br</p>
+                <p className='footer__pigz__titulo' >95 3224-2603</p>
+                <p className='footer__pigz__titulo' >Pigz nas redes</p>
                 <div>
                     <img src="linkedin-with-circle.png" alt="" />
                     <img src="instagram-with-circle.png" alt="" />
                     <img src="facebook-with-circle.png" alt="" />
                     <img src="youtube-with-circle.png" alt="" />
                 </div>
-            </div>   </div>
+
+                <div>_____________________________________________________________</div>
+                <div>
+                    <p>Nossos termos</p>
+                    <p>Privacidade</p>
+                    <p>Ajuda</p>
+                </div>
+                <p>© Copyright 2021 • Pigz • Todos os direitos reservados Orange Labs Tecnologia LTDA. CNPJ 34.895.008/0001-85</p>
+            </div>
+        </div>
 
     )
 }

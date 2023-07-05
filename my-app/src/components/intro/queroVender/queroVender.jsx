@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './queroVender.css'
 
 export default function QueroVender() {
+
+    const [abc, setAbc] = useState('incompleto')
+
+    
+
     return (
         <form className='form'>
           <h2 className='form__titulo'>Quero vender no Pigz</h2>
@@ -14,7 +19,7 @@ export default function QueroVender() {
           <input className='form__inputs' type="tel" id="telefone" name="telefone" required /><br /><br />
 
           <label htmlFor='Continuar' className='aviso'>Ao continuar, aceito que a Pigz entre em contato comigo por telefone, e-mail ou WhatsApp.</label>          
-          <input type="submit" value="Continuar" className='submit' />
+          <input  type="submit" value="Continuar" className='submit' />
         </form>
       );
     };

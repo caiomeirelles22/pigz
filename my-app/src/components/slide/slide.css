@@ -11,3 +11,10 @@
     background-color: #e80404;
     margin: 2px;
 }
+
+.teste{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
