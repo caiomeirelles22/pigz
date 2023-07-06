@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/pigz/static/css/main.bb713a0d.css",
+    "main.js": "/pigz/static/js/main.510c9518.js",
+    "static/js/787.28cb0dcd.chunk.js": "/pigz/static/js/787.28cb0dcd.chunk.js",
+    "static/media/hamburger-with-floating-ingredients-on-dark-background.png": "/pigz/static/media/hamburger-with-floating-ingredients-on-dark-background.27007ba78d7eb094e165.png",
+    "index.html": "/pigz/index.html",
+    "main.bb713a0d.css.map": "/pigz/static/css/main.bb713a0d.css.map",
+    "main.510c9518.js.map": "/pigz/static/js/main.510c9518.js.map",
+    "787.28cb0dcd.chunk.js.map": "/pigz/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb713a0d.css",
+    "static/js/main.510c9518.js"
+  ]
+}
