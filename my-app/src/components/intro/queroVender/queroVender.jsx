@@ -3,10 +3,6 @@ import './queroVender.css'
 
 export default function QueroVender() {
 
-    const [abc, setAbc] = useState('incompleto')
-
-    
-
     return (
         <form className='form'>
           <h2 className='form__titulo'>Quero vender no Pigz</h2>

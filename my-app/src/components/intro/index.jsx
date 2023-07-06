@@ -8,8 +8,6 @@ import TipoDeLoja from './tipoDeLoja/tipoDeLoja'
 
 export default function Intro() {
 
-  
-
   return (
     <div className='intro'>
         <Textual/>

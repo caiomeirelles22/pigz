@@ -2,7 +2,6 @@ import './App.css';
 import EMais from './components/eMais/eMais';
 import Footer from './components/footer';
 import Header from './components/header';
-import Logo from './components/header/logo/logo';
 import Intro from './components/intro';
 import Main from './components/main';
 import Planos from './components/planos/planos';

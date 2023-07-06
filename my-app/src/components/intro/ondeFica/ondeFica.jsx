@@ -3,17 +3,13 @@ import '../queroVender/queroVender.css'
 
 export default function OndeFica() {
 
-    const [abc, setAbc] = useState('123')
-   
-
-
     return (
         <form className='form'>
             <h2 className='form__titulo'>Onde fica a sua loja?</h2>
-            
+
             <label className='form__labels' htmlFor="cep">CEP:</label>
             <input className='form__inputs' type="number" id="cep" name="cep" placeholder='00000-00' required /><br /><br />
-            
+
             <label className='form__labels' htmlFor="estado">estado:</label>
             <select className='form__inputs' name="estado">
                 <option value="estado">UF:</option>
@@ -53,7 +49,7 @@ export default function OndeFica() {
                 <option value="al">Campos dos Goytacazes</option>
                 <option value="am">Belo Horizonte</option>
                 <option value="ap">João Pessoa</option>
-               
+
             </select>
             <label className='form__labels' htmlFor="endereço">Endereço:</label>
             <input className='form__inputs' placeholder='Avenida Brasil' type="text" id="endereço" name="endereço" required /><br /><br />
@@ -64,7 +60,7 @@ export default function OndeFica() {
             <label className='form__labels' htmlFor="complemento">complemento</label>
             <input className='form__inputs' placeholder='Sala 1' type="text" id="complemento" name="complemento" required /><br /><br />
 
-            <input type="submit" value="Próximo" className='submit' /> 
+            <input type="submit" value="Próximo" className='submit' />
         </form>
     );
 };

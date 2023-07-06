@@ -1,6 +1,5 @@
 import React from 'react'
 import Logo from './logo/logo'
-import Buttom from './buttom/buttom'
 import ButtomJaSou from './buttom/buttom'
 import './index.css'
 
@@ -9,8 +8,6 @@ export default function Header() {
     <div className='header'>
         <Logo/>
         <ButtomJaSou/>
-
-        
     </div>
   )
 }
